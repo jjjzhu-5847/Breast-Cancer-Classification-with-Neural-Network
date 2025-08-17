@@ -37,7 +37,7 @@ The model demonstrates strong performance and generalization, making it a promis
 Below are the plots generated during training:
 
 - **Accuracy Curve**: Shows steady improvement in both training and validation accuracy
-- <img width="622" height="441" alt="image" src="https://github.com/user-attachments/assets/3413755a-97cd-4969-8042-916577762b00" />
+ <img width="622" height="441" alt="image" src="https://github.com/user-attachments/assets/3413755a-97cd-4969-8042-916577762b00" />
 
 - **Loss Curve**: Displays consistent decrease in loss for both sets
-- <img width="582" height="439" alt="image" src="https://github.com/user-attachments/assets/304bc2c8-1aaa-4b56-ab27-76dac2a84c12" />
+ <img width="582" height="439" alt="image" src="https://github.com/user-attachments/assets/304bc2c8-1aaa-4b56-ab27-76dac2a84c12" />
