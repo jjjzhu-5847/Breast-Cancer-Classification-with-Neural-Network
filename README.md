@@ -1,51 +1,42 @@
-# Breast Cancer Classification with Neural Network
-📖 Project Summary
+# 🧠 Breast Cancer Classification with Neural Networks
 
-Breast cancer is one of the most common cancers worldwide, and early detection plays a vital role in improving survival rates.
-This project applies machine learning and neural networks to the Breast Cancer Wisconsin Dataset to build a predictive model that classifies tumors as benign or malignant.
+## 📖 Project Overview
 
-The notebook demonstrates:
+Breast cancer is one of the most prevalent cancers globally, and early detection is crucial for improving patient outcomes. This project leverages machine learning—specifically a feed-forward neural network built with TensorFlow/Keras—to classify tumors as **benign** or **malignant** using the Breast Cancer Wisconsin Dataset.
 
-Data preprocessing and feature scaling
+The model demonstrates strong performance and generalization, making it a promising tool for medical data classification tasks.
 
-Designing a feed-forward neural network using TensorFlow/Keras
+---
 
-Training and evaluating the model with accuracy and loss metrics
+## 📊 Key Features
 
-Visualizing performance with plots for better understanding
+- ✅ **Data Preprocessing**: Feature scaling and normalization for optimal model performance
+- 🧠 **Neural Network Design**: Simple feed-forward architecture using Keras Sequential API
+- 📈 **Training & Evaluation**: Accuracy and loss tracked across epochs
+- 📊 **Visualization**: Accuracy and loss curves for both training and validation sets
 
-The model achieves high accuracy, showing that neural networks can be an effective tool in medical data classification tasks.
+---
 
-📊 Model Training Report
+## 🧪 Model Training Summary
 
-The neural network was trained for 10 epochs.
+| Metric              | Epoch 1 | Epoch 10 |
+|---------------------|---------|----------|
+| Training Accuracy   | 36%     | 96.12%   |
+| Validation Accuracy | 45%     | 95.65%   |
+| Training Loss       | 1.0979  | 0.1335   |
+| Validation Loss     | 0.7609  | 0.1274   |
 
-Training Accuracy steadily increased from 36% (epoch 1) to 96% (epoch 10).
+- 🔼 Accuracy steadily improved across epochs
+- 🔽 Loss consistently decreased, with no signs of overfitting
+- ✅ Final model shows strong generalization on unseen data
 
-Validation Accuracy improved from 45% (epoch 1) to 95% (epoch 10), showing good generalization.
+---
 
-Training Loss decreased from 1.0979 to 0.1335.
+## 📈 Performance Visualization
 
-Validation Loss decreased from 0.7609 to 0.1274, without signs of overfitting.
+Below are the plots generated during training:
 
-Final Epoch Results:
+- **Accuracy Curve**: Shows steady improvement in both training and validation accuracy
+- **Loss Curve**: Displays consistent decrease in loss for both sets
 
-Training Accuracy: 0.9612
-
-Training Loss: 0.1335
-
-Validation Accuracy: 0.9565
-
-Validation Loss: 0.1274
-
-The model demonstrates strong performance and generalization on unseen data.
-
-📈 Model Accuracy and Loss Graphs
-
-Below are the plots showing the accuracy and loss curves for both the training and validation sets during training:
-
-Accuracy Curve → demonstrates steady improvement in both training and validation accuracy.
-
-Loss Curve → shows consistent decrease in loss for both training and validation sets.
-
-(Insert the plots generated in your notebook here.)
+> *(Insert plots here: `accuracy.png`, `loss.png`, etc.)*
